@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"joesocket","l":"InetServerSocket"},{"p":"joesocket","l":"InetSocket"},{"p":"joesocket","l":"IPv6"}]
