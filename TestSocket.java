@@ -11,8 +11,8 @@ public class TestSocket {
    //
    public TestSocket(String... argv) throws Exception {
      InetSocket soc = new InetSocket(argv[0], Integer.parseInt(argv[1]));
-     System.out.println("Client IPv6:"+joesocket.IPv6.getIPv6());
-     System.out.println("Host_IP:    "+soc.getHostIP()+
+     System.out.println("Client IPv6:"+joesocket.IPv6.getIPv6()+
+                      "\nHost_IP:    "+soc.getHostIP()+
                       "\nHostPort:   "+soc.getHostPort()+
                       "\n\nQ or q to terminate the communication"+
                       "\n\nX or x to exit the communication and server"); 
